@@ -1,0 +1,95 @@
+.addContainer
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input
+{
+    border: 3px solid rgb(198, 198, 250);
+    width: 20em;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    outline: none;
+    transition: box-shadow 0.3s;
+}
+.input:focus
+{
+    border-color: rgb(198, 198, 250);
+    box-shadow: 0 0 5px blue;
+}
+
+.date
+{
+    border: 3px solid rgb(198, 198, 250);
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    outline: none;
+}
+
+.date:focus
+{
+    border-color: rgb(198, 198, 250);
+    box-shadow: 0 0 5px blue;
+}
+
+.addContainer>
+{
+
+}
+
+.cardContainer
+{
+    height: 530px;
+    overflow: scroll;
+    margin: 40px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-start;
+    justify-items: center;
+    scrollbar-width: none;
+}
+
+.card
+{
+    height: 80px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(216, 178, 251);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(169, 169, 169);
+    user-select: none;
+    overflow: hidden;
+}
+
+p
+{
+    margin: 6px;
+}
+
+.addContainer>button
+{
+    width: 100px;
+    user-select: none;
+    background-color: blueviolet;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgb(169, 169, 169);
+    color: white;
+}
+
+#deletebtn
+{
+    background-color: rgb(12, 81, 104);
+    color: rgb(205, 205, 205);
+    border: 1px solid rgb(159, 95, 95);
+    border-radius: 3px;
+    padding: 2px 8px 2px 8px;
+}

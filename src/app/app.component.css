@@ -1,0 +1,10 @@
+h1
+{
+    margin: 0px;
+    padding: 10px 0px 10px 30px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    text-shadow: 0 0 10px rgb(174, 106, 238);
+    box-shadow: 0 7px 8px rgb(190, 190, 190);
+    user-select: none;
+}

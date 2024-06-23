@@ -1,0 +1,14 @@
+<div>
+    <div class="addContainer">
+        <input class="input" [(ngModel)]="appointmentName" type="text" placeholder="Enter Task">
+        <input  class="date" [(ngModel)]="date" type="date">
+        <button (click)="onClick()" type="button">Submit</button>    
+    </div>
+    <div class="cardContainer">
+        <div class="card" *ngFor="let a of appointments; let i=index;">
+            <p style="overflow: scroll; text-wrap: nowrap; scrollbar-width: none; color:rgb(0, 0, 0); font-size: larger;">{{a.title}}</p>
+            <p style="color: rgb(67, 67, 67);">{{a.date | date: 'dd-MM-yyyy'}}</p>
+            <button (click)="deleteAppointment(i)" id="deletebtn">delete</button>
+        </div>
+    </div>    
+</div>
